@@ -1,3 +1,4 @@
+import Board from "@/components/Board"
 import Header from "@/components/Header"
 import Head from "next/head"
 
@@ -10,11 +11,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-orange-50 h-screen w-screen flex flex-col items-center">
+      <main className="bg-orange-50 p-2 h-screen w-screen flex flex-col items-center">
         <Header />
-        {/* logic context? */}
-        {/* header */}
-        {/* board */}
+        <Board />
       </main>
     </>
   )
